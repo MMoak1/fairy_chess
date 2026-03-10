@@ -1,13 +1,16 @@
 #include <iostream>
+#include <string>
+
+using namespace std;
 
 class Square {
     
     string color;
-    Boolean isOccupied;
+    bool isOccupied;
     Piece piece;
 
     public:
-    Square(string color, Boolean isOccupied, Piece piece) {
+    Square(string color, bool isOccupied, Piece piece) {
         this->color = color;
         this->isOccupied = isOccupied;
         this->piece = piece;
@@ -17,7 +20,7 @@ class Square {
         return color;
     }
 
-    Boolean getIsOccupied() {
+    bool getIsOccupied() {
         return isOccupied;
     }
 
@@ -29,7 +32,7 @@ class Square {
         this->color = color;
     }
 
-    void setIsOccupied(Boolean isOccupied) {
+    void setIsOccupied(bool isOccupied) {
         this->isOccupied = isOccupied;
     }
 
