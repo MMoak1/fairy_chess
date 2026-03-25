@@ -17,7 +17,6 @@ class King : public Piece {
         return position;
     }
 
-
     void move(string potentialPosition) {
         
     }
